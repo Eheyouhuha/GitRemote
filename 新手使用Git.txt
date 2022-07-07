@@ -1,0 +1,17 @@
+下载安装Git
+在 Git 里配置 global user.name 和 user.email   
+	name 和 email 是Github账号
+在Git生成 Key
+	ssh-keygen -t rsa
+在Github添加 Key
+
+测试配置
+	ssh -T git@github.com
+
+#文件进入缓存流
+git add 
+#添加注释
+git commit -m 
+#push到 远程仓库
+git push origin master
+
